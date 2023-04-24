@@ -40,8 +40,8 @@ fun main() {
     //here x=1
     println("x= ${--x}")
 
-    val isActive = false
-    if (isActive == true) {
+    val isActive = true
+    if (!isActive) {
         println("The user is active")
     } else {
         println("The user is not active")
@@ -71,6 +71,16 @@ fun main() {
         println("Number is not equal t0 90")
     }else{
         println("Number is equal t0 90")
+    }
+    //logical and
+    val isPlaying=true
+    val score=100
+    if (isPlaying && score==100)
+    {
+        println("Next level opened")
+    }else{
+
+            println("Still at same level")
     }
 
 
