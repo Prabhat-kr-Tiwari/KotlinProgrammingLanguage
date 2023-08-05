@@ -69,19 +69,52 @@ fun main() {
     //logical not
     if (no != 90) {
         println("Number is not equal t0 90")
-    }else{
+    } else {
         println("Number is equal t0 90")
     }
     //logical and
-    val isPlaying=true
-    val score=100
-    if (isPlaying && score==100)
-    {
+    val isPlaying = true
+    val score = 100
+    if (isPlaying && score == 100) {
         println("Next level opened")
-    }else{
+    } else {
 
-            println("Still at same level")
+        println("Still at same level")
     }
+    //logical or
+    val num1 = -5
+    val num2 = -2
+    if (num1 > 0 || num2 > 0) {
+        //println("The condition is true")
+        "This text1"
+    } else {
+        //println("The condition is false")
+        "This is text2"
+    }
+
+
+    //IF AND ELSE AS A EXPRESSION
+    val num3 = -5
+    val num4 = -2
+    //error
+    //val text:String = if (num3 > 0 || num4 > 0) "This text 1" else 5
+
+    val text = if (num3 > 0 || num4 > 0)
+
+
+        "This text 1"
+    else
+
+        "This is text 2"
+
+    println(text)
+    val string = "Hello, World!"
+    //string = "Hello, Kotlin!"
+    println(string)
+
+    if(num3>0||num4>0)
+        println("This condition is true")
+        println("This condition is true and some text")
 
 
 }
