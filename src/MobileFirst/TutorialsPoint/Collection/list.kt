@@ -1,4 +1,4 @@
-package MobileFirst.TutorialsPoint
+package MobileFirst.TutorialsPoint.Collection
 
 fun main(){
     val numbers = mutableSetOf(1,2,1,3,4,6)
